@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+	
+	.footerWrap {
+		width: 100%;
+		position: fixed;
+		bottom: 0px;
+	}
+
+.footer {
+	width: 230px;
+	margin: auto;
+}
+
+.footerContent {
+	float: left;
+	width: 100%;
+    background-image: url('/resources/images/back1.jpg');
+	padding: 10px 0;
+	border-radius: 50px;
+}

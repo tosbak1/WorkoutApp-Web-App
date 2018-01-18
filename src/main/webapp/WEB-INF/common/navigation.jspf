@@ -1,0 +1,48 @@
+<link href="<c:url value="/resources/css/dropdown.css" />"
+	rel="stylesheet">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+                             
+      </button>
+      <a class="navbar-brand" href="/homeServlet"> Workout Buddy</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/list-workouts.do"><span
+					class="glyphicon glyphicon-asterisk"></span> Explore</a></li>
+			<li><a href="/list-personal.do"><span
+					class="glyphicon glyphicon-user"></span> My zone</a></li>
+			<li><a href="/list-coaches.do"><span
+					class="glyphicon glyphicon-fire"></span> Coach-Corner</a></li>
+			<li><a href="/list-advice.do"><span
+					class="glyphicon glyphicon-ice-lolly-tasted"></span> 75%</a></li>
+        <li>
+				<div class="dropdown">
+					<button class="dropbtn"><span
+					class="glyphicon glyphicon-search"></span></button>
+					<div class="dropdown-content">
+						<a href="/list-bodyworkouts.do?bodypart=Chest">Chest</a> <a
+							href="/list-bodyworkouts.do?bodypart=Arms">Arms</a> <a
+							href="/list-bodyworkouts.do?bodypart=Leg">Legs</a> <a
+							href="/list-bodyworkouts.do?bodypart=Abs">Abs</a> <a
+							href="/list-bodyworkouts.do?bodypart=Shoulders">Shoulders</a> <a
+							href="/list-bodyworkouts.do?bodypart=Back">Back</a> <a
+							href="/list-bodyworkouts.do?bodypart=Cardio">Cardio</a>
+					</div>
+				</div>
+			</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/logout.do"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+<link href="<c:url value="/resources/css/footer.css" />" rel="stylesheet">
+
+<div class="footerWrap">
+    <div class="footer">
+      <div class="footerContent">
+        <div class="container-fluid">
+				<a href="https://www.instagram.com/coach.to/?hl=en"><i class="fa fa-instagram fa-3x social"></i></a>
+				<a href="#"><i class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/jt7p"><i class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+				<a href="mailto:tydcool@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+
+		</div>
+      </div>     
+    </div>
+</div>
+
+<script src="webjars/jquery/2.1.4/jquery.min.js"></script>
+<script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+

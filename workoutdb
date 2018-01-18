@@ -1,0 +1,10 @@
+create table CoachAdvice(
+	username varchar (20),
+	breakfast varchar(200),
+	lunch varchar(200),
+	dinner varchar(200),
+	snacks varchar(200),
+	supplements varchar(200),
+	foreign key (username) references Userinfo(username)
+);
+

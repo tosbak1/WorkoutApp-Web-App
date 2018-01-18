@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:12 -0400] "GET /login.do HTTP/1.1" 200 6690 http-bio-8081-exec-6 7
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:12 -0400] "GET /resources/css/dropdown.css HTTP/1.1" 304 - http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:12 -0400] "GET /resources/css/footer.css HTTP/1.1" 304 - http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:28 -0400] "GET / HTTP/1.1" 200 6690 http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:31 -0400] "GET / HTTP/1.1" 200 6690 http-bio-8081-exec-6 1
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:40 -0400] "POST /login.do HTTP/1.1" 302 - http-bio-8081-exec-6 27
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:40 -0400] "GET /homeServlet HTTP/1.1" 200 4271 http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:40 -0400] "GET /resources/images/self.PNG HTTP/1.1" 304 - http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:43 -0400] "GET /list-workouts.do HTTP/1.1" 200 17616 http-bio-8081-exec-6 32
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:46 -0400] "GET /list-personal.do HTTP/1.1" 200 7207 http-bio-8081-exec-6 26
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:48 -0400] "GET /list-coaches.do HTTP/1.1" 200 5839 http-bio-8081-exec-6 2
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:48 -0400] "GET /resources/images/avatar.png HTTP/1.1" 304 - http-bio-8081-exec-6 3
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:51 -0400] "GET /list-bodyworkouts.do?bodypart=Abs HTTP/1.1" 200 6071 http-bio-8081-exec-6 23
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:09:53 -0400] "GET /homeServlet HTTP/1.1" 200 4271 http-bio-8081-exec-6 8
+0:0:0:0:0:0:0:1 - - [17/Jun/2017:01:10:06 -0400] "GET /list-workouts.do HTTP/1.1" 200 17616 http-bio-8081-exec-6 30
